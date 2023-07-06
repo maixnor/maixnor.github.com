@@ -29,10 +29,6 @@
           class="absolute top-0 w-full h-full bg-center bg-cover"
           style="background-color: #393939"
         >
-          <span
-            id="blackOverlay"
-            class="w-full h-full absolute opacity-75 bg-black"
-          ></span>
         </div>
         <div class="container relative mx-auto">
           <div class="items-center flex flex-wrap">
@@ -52,14 +48,14 @@
                 Hi
               </h3>
               <p
-                class="text-2xl font-light leading-relaxed mt-4 mb-4 text-gray-700"
+                class="text-2xl font-light leading-relaxed mt-4 mb-12 text-gray-700"
               >
                 My name is Benjamin. I am a developer passionate about software architecture
                 and creating pragmatic, yet powerful solutions.
               </p>
               <a
                 href="#getintouch"
-                class="text-white font-semibold px-6 py-3 rounded-md bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500"
+                class="text-white font-semibold px-6 py-3 rounded-md bg-indigo-500 hover:bg-pink-500"
                 >Get in Touch!</a>
             </div>
             <div class="w-full md:w-4/12 px-4 mr-auto">
@@ -89,11 +85,11 @@
             <div class="w-full md:w-4/12 ml-auto mr-auto px-4 pb-4">
               <img
                 alt="Picture of a Lightbulb"
-                class="max-80 h-80 object-none rounded-full shadow-lg "
+                class="w-80 h-80 object-none rounded-full shadow-lg "
                 src="../lightbulb.jpg"
               />
             </div>
-            <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+            <div class="w-full md:w-6/12 ml-auto mr-auto px-4">
               <div class="md:pr-12">
                 <h3 class="text-3xl font-semibold mb-8">Experience</h3>
                 <ol class="border-l-2 border-gray dark:border-gray-500">
@@ -170,9 +166,12 @@
                         July 2022 - March 2023
                       </p>
                       <ul class="mb-4 mt-2 text-gray-600 dark:text-gray-600">
-                        <li>Mandatory civil service</li>
-                        <li>4 months as Assistant in a Kindergarten</li>
-                        <li>5 months as Technician in an elderly home</li>
+                        <li>Work 10h/week during college</li>
+                        <li>First Cloud Project (Azure)</li>
+                        <li>Fullstack Development</li>
+                        <li>Database Queries & Optimizations</li>
+                        <li>C# ASP.net Backend</li>
+                        <li>CLI Utilities</li>
                       </ul>
                     </div>
                   </li>
@@ -184,131 +183,58 @@
         </div>
       </section>
       <section class="relative py-20">
-        <div id="proudcts" class="container mx-auto px-4 md:px-12 lg:px-32">
+        <div id="passions" class="container mx-auto px-4 md:px-12 lg:px-32">
           <h3 class="text-3xl mb-2 font-semibold leading-normal">
             Passions
           </h3>
-          <div class="flex flex-row flex-nowrap overflow-x-auto space-x-8 justify-items-center">
-            <div>
-              <div
-                  class="min-w-0 break-words shadow-lg rounded-lg bg-purple-500 w-96"
-              >
-                  <img
-                  alt="Ein stinknormales Bücherregal in einem Wohnzimmer"
-                  src="../pothole.jpg"
-                  class="align-middle rounded-t-lg object-cover"
-                  />
-                  <blockquote class="relative p-8 mb-4">
-                  <svg
-                      preserveAspectRatio="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 583 95"
-                      class="absolute left-0 w-full block"
-                      style="height: 95px; top: -94px"
-                  >
-                      <polygon
-                      points="-30,95 583,95 583,65"
-                      class="text-purple-500 fill-current"
-                      ></polygon>
-                  </svg>
-                  <h4 class="text-xl font-bold text-white">Judo</h4>
-                  <p class="text-md font-light mt-2 text-white">
-                    Potholes can cause damage to vehicles and pose a safety risk to drivers and pedestrians.
-                  </p>
-                  </blockquote>
+          <div class="flex flex-row space-x-8">
+              <div class="md:w-1/2 break-words shadow-lg rounded-lg bg-purple-500">
+                <img
+                alt="Ein stinknormales Bücherregal in einem Wohnzimmer"
+                src="../bjj.jpg"
+                class="align-middle rounded-t-lg object-cover"
+                />
+                <blockquote class="relative p-8 mb-4">
+                <h4 class="text-2xl font-bold text-white">Judo</h4>
+                <p class="text-md font-light mt-2 text-white">
+                  Judo combines agility, strength and endurance in a perfect mix.
+                  Judo also gives you the ability to fight fully without 
+                  worrying the wellbeing of yourself or your partner.
+                </p>
+                </blockquote>
               </div>
-          </div>
-          <div>
-                <div
-                    class="min-w-0 break-words shadow-lg rounded-lg bg-purple-500 w-96 mb-60"
-                >
-                    <img
-                    alt="Ein exklusives Bücherregal mit Büchern zum Niederknien"
-                    src="../flooded.jpg"
-                    class="align-middle rounded-t-lg"
-                    />
-                    <blockquote class="relative p-8 mb-4">
-                    <svg
-                        preserveAspectRatio="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 583 95"
-                        class="absolute left-0 w-full block"
-                        style="height: 95px; top: -94px"
-                    >
-                        <polygon
-                        points="-30,95 583,95 583,65"
-                        class="text-purple-500 fill-current"
-                        ></polygon>
-                    </svg>
-                    <h4 class="text-xl font-bold text-white">Floods</h4>
-                    <p class="text-md font-light mt-2 text-white text-pre">
-                      Floods can create hazardous driving conditions and result in road closures.
-                    </p>
-                    </blockquote>
-                </div>
+              <div class="md:w-1/2 break-words shadow-lg rounded-lg bg-purple-500">
+                <img
+                alt="Ein exklusives Bücherregal mit Büchern zum Niederknien"
+                src="../sweden.jpg"
+                class="align-middle rounded-t-lg"
+                />
+                <blockquote class="relative p-8 mb-4">
+                <h4 class="text-2xl font-bold text-white">Swedish</h4>
+                <p class="text-md font-light mt-2 text-white text-pre">
+                  I have started to learn the Swedish language out of boredom during civil service. 
+                  Nowadays I keep practicing and honing this skill. I also enjoy the 
+                  swedish culture very much.
+                </p>
+                </blockquote>
             </div>
-            
-            <div>
-              <div
-                  class="min-w-0 break-words shadow-lg rounded-lg bg-purple-500 w-96"
-              >
-                  <img
-                  alt="Ein kleines Bücherregal auf einer Toilette (Heisl)"
-                  src="../tree.jpg"
-                  class="align-middle rounded-t-lg"
-                  />
-                  <blockquote class="relative p-8 mb-4">
-                  <svg
-                      preserveAspectRatio="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 583 95"
-                      class="absolute left-0 w-full block"
-                      style="height: 95px; top: -94px"
-                  >
-                      <polygon
-                      points="-30,95 583,95 583,65"
-                      class="text-purple-500 fill-current"
-                      ></polygon>
-                  </svg>
-                  <h4 class="text-xl font-bold text-white">Trees</h4>
-                  <p class="text-md font-light mt-2 text-white">
-                    Fallen trees on roads pose dangers and obstruct traffic flow.
-                  </p>
-                  </blockquote>
-              </div>
-          </div>
-      </div>
       </section>
-      <section class="relative block py-24 lg:pt-0 bg-gray-900">
+      <section class="mt-60 relative block py-24 lg:pt-0 bg-gray-900">
         <div
           class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
           style="height: 80px"
         >
-          <svg
-            class="absolute bottom-0 overflow-hidden"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none"
-            version="1.1"
-            viewBox="0 0 5120 100"
-            x="0"
-            y="0"
-          >
-            <polygon
-              class="text-gray-900 fill-current"
-              points="5120 0 5120 100 0 100"
-            ></polygon>
-          </svg>
         </div>
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
-            <div class="w-full lg:w-10/12 px-4">
+            <div class="lg:w-10/12 px-4">
               <div
-                class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300 mt-20"
+                class="relative flex flex-col min-w-0 break-words mb-6 shadow-lg rounded-lg bg-gray-300 mt-20"
               >
                 <div class="flex-auto p-5 lg:p-10">
                   <h4 class="text-2xl font-semibold flex justify-center mb-4" id="getintouch">Could I spark your interest?</h4>
                   <p class="text-gray-600 text-center">
-                    In case you have any questions feel free to contact me using any of these channels.
+                    In case you have any questions feel free to contact me by email or LinkedIn.
                     Enjoy!
                   </p>
                   <div class="mt-4 flex flex-wrap justify-center">
@@ -316,14 +242,14 @@
                       <div class="bg-white font-normal rounded-lg m-2 p-3 flex justify-center w-32">
                         <!-- Email -->
                         <a target="_blank" href="mailto:benjamin@meixner.org">
-                          <i class="fa fa-at text-black bg-gray-300 p-5 m-2 text-5xl rounded-full shadow-md"></i>
+                          <i class="fa fa-at text-black hover:text-gray-600 bg-gray-300 p-5 m-2 text-5xl rounded-full shadow-md"></i>
                           <p class="flex justify-center text-xl">Email</p>
                         </a>
                       </div>
                       <div class="bg-white font-normal rounded-lg m-2 p-3 flex justify-center w-32">
                         <!-- Instagram -->
                         <a target="_blank" href="https://www.linkedin.com/in/benjamin-meixner-a7b82617a/">
-                          <i class="fab fa-linkedin text-blue-600 bg-gray-300 p-5 m-2 text-5xl rounded-full shadow-md"></i>
+                          <i class="fab fa-linkedin text-blue-600 hover:text-blue-400 bg-gray-300 p-5 m-2 text-5xl rounded-full shadow-md"></i>
                           <p class="flex justify-center text-xl">LinkedIn</p>
                         </a>
                       </div>
